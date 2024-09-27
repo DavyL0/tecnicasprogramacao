@@ -62,7 +62,7 @@ import java.util.*;
                 System.out.println("Produtos Estaduais: " + prodEstad);
                 System.out.println("Produtos Nacionais: " + prodNacio);
                 System.out.println("Produtos Importados: " + prodImpos);
-            }else{
+            }else if(digite != 8){
                 System.out.println("Digite um valor válido");
             }
         }while(digite != 8);
